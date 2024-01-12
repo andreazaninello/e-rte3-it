@@ -12,8 +12,6 @@ In the e-RTE3-it dataset, each text-hypothesis pair, in addition to the ’entai
 
 Furthermore, in e-RTE-3-it, label mismatches between RTE-3-ITA and the original English dataset have been emended, so that e-RTE-3-ITA and the original RTE-3 datasets are perfectly overlapping.
 
-The e-RTE3-ITA dataset is licensed under a CC BY 4.0 Deed | Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/deed.en).
-
 This release contains the following files:
 
 - DEV.xml (800 T/H pairs enriched with explanations corresponding to the RTE-3 English development set)

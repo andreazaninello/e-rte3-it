@@ -1,10 +1,32 @@
-# Textual Entailment with Natural Language Explanations:
-The Italian e-RTE-3 Dataset
+# e-RTE-3-ITA Dataset: Textual Entailment with Natural Language Explanations
 
-This is the ’e-RTE-3-it’ dataset, an enriched version of the Italian RTE-3 dataset, where each text-hypothesis pair, in 
-addition to the ’entailment’, ’contradiction’, or ’neutrality’ label, has been enriched with an explanation for the label itself.
-Moreover, the dataset includes the level of confidence with which the annotators could write the explanation, and in cases
-where the annotators did not agree with the original label, an alternative label, along with an explanation for the new label.
+## Description
+The e-RTE-3-ITA dataset is an emended, enriched, and manually curated version of the Italian RTE-3 dataset, which is the Italian translation of the Textual Entailment English dataset used in the RTE-3 Challenge (http://pascallin.ecs.soton.ac.uk/Challenges/RTE3/Datasets/).
+
+Like RTE-3 and RTE-3-ITA, the e-RTE-3-ITA dataset is composed of a development set and a test set, each containing 800 text-hypothesis (T/H) pairs.
+
+In the e-RTE3-it dataset, each text-hypothesis pair, in addition to the ’entailment’, ’contradiction’, or ’neutrality’ label, has been enriched with:
+- an explanation for the label itself;
+- the level of confidence with which the annotators could write the explanation;
+- in cases where the annotators did not agree with the original label, an alternative label along with an explanation for the new label.
+
+Furthermore, in e-RTE-3-it, label mismatches between RTE-3-ITA and the original English dataset have been emended, so that e-RTE-3-ITA and the original RTE-3 datasets are perfectly overlapping.
+
+The e-RTE3-ITA dataset is licensed under a CC BY 4.0 Deed | Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/deed.en).
+
+This release contains the following files:
+
+- DEV.xml (800 T/H pairs enriched with explanations corresponding to the RTE-3 English development set)
+- TEST.xml (800 T/H pairs enriched with explanations corresponding to the RTE-3 English test set)
+- e-RTE-3-it.dtd (DTD for the dataset)
+
+
+For further information about this data release, please contact:
+
+Andrea Zaninello	<azaninello@fbk.eu>  
+Sofia Brenna <sbrenna@fbk.eu>
+Bernardo Magnini	<magnini@fbk.eu>
+
 
 ## Citation
 

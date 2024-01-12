@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!ELEMENT entailment-corpus (pair+)>
+
+<!ELEMENT pair (t,h,e,a?)>
+<!ATTLIST pair
+          id CDATA #REQUIRED
+		  entailment (YES|NO|UNKNOWN) #REQUIRED
+          task (IR|IE|QA|SUM) #REQUIRED 
+          length (long|short) #REQUIRED >
+<!ELEMENT t (#PCDATA)>
+<!ELEMENT h (#PCDATA)>
+<!ELEMENT e (#PCDATA)>
+<!ELEMENT a (#PCDATA)>
+<!ATTLIST e
+		  confidence (1|2|3|4|5) #REQUIRED >
+<!ATTLIST a
+		  confidence (1|2|3|4|5) #REQUIRED
+          new_label (YES|NO|UNKNOWN) #IMPLIED >

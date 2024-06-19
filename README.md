@@ -30,7 +30,7 @@ Bernardo Magnini	<magnini@fbk.eu>
 
 If you use this dataset, please cite this article:
 ```bibtex
-@inproceedings{zaninello-etal-2020-erte3it,
+@inproceedings{zaninello-etal-2023-erte3it,
     title = "Textual Entailment with Natural Language Explanations: The Italian e-RTE-3 Dataset",
     author = "Andrea Zaninello and Sofia Brenna and Bernardo Magnini",
     booktitle = "Proceedings of the 9th Italian Conference on Computational Linguistics",
@@ -39,6 +39,5 @@ If you use this dataset, please cite this article:
     address = "Venice, Italy",
     publisher = "CEUR Workshop Proceedings (CEUR-WS.org)",
     volume = "35.96",
-    url = "https://www.aclweb.org/anthology/2020.emnlp-demos.6](https://ceur-ws.org/Vol-3596/short21.pdf)https://ceur-ws.org/Vol-3596/short21.pdf",
 }
 ```
